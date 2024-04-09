@@ -1,12 +1,13 @@
-# Arduino Environmental Monitoring System
+# Automated Greenhouse Irrigation System Using Arduino 
 
-This repository contains code for an Arduino-based greenhouse irrigation system. The system is designed to measure various environmental parameters such as temperature, humidity, CO2 levels, soil moisture, and pH. It utilizes sensors like DHT11 for temperature and humidity, SCD30 for CO2 levels, and an analog soil moisture sensor. 
+This repository contains code for an Arduino-based greenhouse irrigation system. The system is designed to measure various environmental parameters such as temperature, humidity, CO2 levels, soil moisture, and pH. It utilizes sensors like DHT11 for temperature and humidity, SCD30 for CO2 levels, and an analog soil moisture sensor with a 1 channel relay module. This was my final project for PHYS 310 at Capilano University. 
 
 ## Requirements
 
 - Arduino board
 - DHT11 sensor
 - SCD30 CO2 sensor
+- 1 channel relay module and mini water pump 
 - LiquidCrystal library
 - Wire library
 - SparkFun_SCD30_Arduino_Library
